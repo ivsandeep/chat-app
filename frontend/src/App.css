@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  background-image: url('bg.jpg');
+  background-position: center;
+  background-size: cover;
+  scrollbar-width: none;
+}
+
+input:invalid {
+  /* border: 2px solid red; */
+}
+
+
+input[type="password"]::-ms-reveal, /* For Microsoft Edge */
+input[type="password"]::-ms-clear,  /* For Microsoft Edge */
+input[type="password"]::-webkit-textfield-decoration-container { /* For Chrome */
+  display: none;
+}
+
+input:focus {
+  outline: none; /* Removes the default focus outline */
+  border:  1.5px solid teal;  /* Removes the border if set */
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
